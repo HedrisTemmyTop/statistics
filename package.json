@@ -1,0 +1,14 @@
+{
+  "name": "statistics",
+  "version": "1.0.0",
+  "description": "stats",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Temmy",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

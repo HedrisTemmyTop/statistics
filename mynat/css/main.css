@@ -1,0 +1,62 @@
+*,
+*:active,
+*:hover,
+*:visited {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.all-content {
+  display: flex;
+}
+
+.aside {
+  flex-basis: 15%;
+  background-color: rgba(207, 209, 207, 0.3);
+  min-height: 100vh;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main {
+  flex: 1;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.nav__header {
+  background-color: rgba(86, 50, 168, 0.9);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.svg__icon {
+  height: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.5rem;
+}
+
+.svg__icon--white {
+  fill: white;
+}
+
+.svg__icon--black {
+  fill: black;
+}
